@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinner ideas</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./style.css">
+    <!--JS-->
+    <script src="./app.js"></script>
+</head>
+<body>
+    <div class="box" id="box">
+            <h1>Hungry?</h1>
+
+            <button type="button" id="letsEat" onclick="letsEat(); this.onclick=null;">Let's eat!</button>
+    
+        <!-- ITALIAN FOOD -->
+        <div class="italianFood">
+            <h3 id="itaTitle">Fancy Italian?</h3>
+            
+            <div id="ita"></div>
+            <button type="button" id="itaYesBtn" onclick="yesItaFood();this.onclick=null;">Si Senor</button>
+            <button type="button" id="itaNoBtn" onclick="noItaFood();this.onclick=null;">No Grazie</button>
+        <div id="itaYesBox">
+            <h2>Here are some options for you;</h2>
+                <ul>
+                    <li>Lasagna Bolognese</li>
+                    <li>Gnocchi Sorrento</li>
+                    <li>Tomato Based Pasta</li>
+                    <li>Pepperoni Pizza</li>
+                </ul>
+        </div>
+        <div class="itaNoClass" id="itaNoBox">
+            <h4>X</h4>
+        </div>
+        </div>
+
+        <!-- ENGLISH FOOD -->
+        <div class="englishFood">
+            <div id="eng"></div>
+            <h3 id="engTitle">How about English?</h3>
+            <button type="button" id="engYesBtn" onclick="yesEngFood(); this.onclick=null;">Ohhh yes!</button>
+            <button type="button" id="engNoBtn" onclick="noEngFood(); this.onclick=null;">Not today ta</button>
+        <div id="engYesBox">
+            <h2>Knew it, take your pick;</h2>
+                <ul>
+                    <li>Fish & Chips</li>
+                    <li>Bangers & Mash</li>
+                    <li>Steak & Ale Pie</li>
+                    <li>Sunday Roast</li>
+                </ul>
+        </div>
+        <div class="engNoClass" id="engNoBox">
+            <h4>X</h4>
+        </div>
+        </div>
+
+        <!-- MEXICAN FOOD -->
+        <div class="mexicanFood">
+            <div id="mex"></div>
+            <h3 id="mexTitle">Mexican will do it!</h3>
+            <button type="button" id="mexYesBtn" onclick="yesMexFood(); this.onclick=null;">You're right!</button>
+            <button type="button" id="mexNoBtn" onclick="noMexFood(); this.onclick=null;">It won't!</button>
+        <div id="mexYesBox">
+            <h2>Any of these?</h2>
+                <ul>
+                    <li>Enchiladas</li>
+                    <li>Fajitas</li>
+                    <li>Chilli Con Carne</li>
+                    <li>Nacho's</li>
+                </ul>
+        </div>
+        <div class="mexNoClass" id="mexNoBox">
+            <h4>X</h4>
+
+
+        </div>
+
+
+<script src="./app.js"></script>
+</body>
+</html>
